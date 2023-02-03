@@ -12,5 +12,4 @@ RUN pip install -q tf-models-official
 
 RUN pip install -U tfds-nightly
 
-
 CMD [ "python" "./.ipynb" ]
