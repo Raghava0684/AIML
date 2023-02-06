@@ -2,7 +2,7 @@ FROM python:3.8
 
 WORKDIR /usr/src/app
 
-COPY fine_tune_bert .
+COPY ./* /usr/src/app
 
 RUN pip install -q -U "tensorflow-text==2.9.*"
 
